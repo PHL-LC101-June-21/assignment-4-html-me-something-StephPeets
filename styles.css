@@ -1,9 +1,29 @@
 body {
 	color: whitesmoke;
 	background: linear-gradient(slategray, steelblue);
-
 	font-family: sans-serif;
+  margin: 8px;
+  display: block;
 }
+
+.funParagraph {
+  color: green;
+  visibility: hidden;
+  height: 0px;
+  width:0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#mainHeading {
+  color: red;
+  visibility: hidden;
+  height: 0px;
+  width:0px;
+  margin: 0px;
+  padding: 0px;
+}
+
 nav {
 	text-align: center;
 	background-color: rgb(53, 99, 136);

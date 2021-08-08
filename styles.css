@@ -1,1 +1,37 @@
-/* Write your CSS here! */
+body {
+	color: whitesmoke;
+	background: linear-gradient(slategray, steelblue);
+
+	font-family: sans-serif;
+}
+nav {
+	text-align: center;
+	background-color: rgb(53, 99, 136);
+	background-blend-mode: hue;
+}
+#header {
+	background-color: rgb(53, 99, 136);
+	background-repeat: no-repeat;
+	background-position: top right;
+	text-align: left;
+	padding: 3% 0 6% 6%;
+	border-radius: 0 0 0 60px;
+}
+
+#tiny {
+	font-size: 0.5rem;
+}
+
+.img-by {
+	font-size: 0.75rem;
+	text-align: right;
+}
+#bg-img {
+  display: inline-block;
+	opacity: 20%;
+}
+
+#golfRulez {
+	height: 30%;
+	width: 30%;
+}

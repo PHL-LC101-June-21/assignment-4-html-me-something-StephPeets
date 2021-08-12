@@ -1,57 +1,80 @@
-body {
-	color: whitesmoke;
-	background: linear-gradient(slategray, steelblue);
-	font-family: sans-serif;
-  margin: 8px;
-  display: block;
+html {
+	font-family: "News Cycle", sans-serif;
+	font-weight: 600;
+	font-size: 1rem;
+	background-color: honeydew;
+	color: rgb(50, 50, 50);
 }
 
+#art-h2 {
+	color: #e4aa1e;
+	background-color: crimson;
+}
+a {
+	color: #0c8696;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1a6664;
+	text-decoration: none;
+}
+
+#body-div, div {
+	display: grid;
+	width: 60%;
+	/* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
+  /* grid-template-rows: 2fr 1fr 3fr 1fr; */
+	/* grid-template-areas: "header  header  header"
+                       "nav     nav     nav"
+                       "content content ."
+                       "footer   footer  footer"; */
+}
+
+#glial-cells {
+	height: 80%;
+}
+
+#cite-img-1673 {
+	font-size: .75rem;
+}
+
+#header-div {
+	text-align: center;
+	background-color: #0b90a1;
+	color: honeydew;
+}
+
+#nav-div {
+	text-align: center;
+	background-color: #e4aa1e;
+}
+
+#overview-div {
+	border: crimson 5px solid;
+}
+
+#topics-div {
+	margin: 5px;
+	border: #0b90a1 5px solid;
+}
+
+#learning-techniques-div {
+	border: #e4aa1e 5px solid;
+}
+
+#art-aside {
+	background-color: #e4aa1e;
+	border: crimson 5px solid;
+}
+
+
 .funParagraph {
-  color: green;
-  visibility: hidden;
-  height: 0px;
-  width:0px;
-  margin: 0px;
-  padding: 0px;
+	color: green;
+	visibility: hidden;
 }
 
 #mainHeading {
-  color: red;
-  visibility: hidden;
-  height: 0px;
-  width:0px;
-  margin: 0px;
-  padding: 0px;
-}
-
-nav {
-	text-align: center;
-	background-color: rgb(53, 99, 136);
-	background-blend-mode: hue;
-}
-#header {
-	background-color: rgb(53, 99, 136);
-	background-repeat: no-repeat;
-	background-position: top right;
-	text-align: left;
-	padding: 3% 0 6% 6%;
-	border-radius: 0 0 0 60px;
-}
-
-#tiny {
-	font-size: 0.5rem;
-}
-
-.img-by {
-	font-size: 0.75rem;
-	text-align: right;
-}
-#bg-img {
-  display: inline-block;
-	opacity: 20%;
-}
-
-#golfRulez {
-	height: 30%;
-	width: 30%;
+	color: red;
+	visibility: hidden;
 }

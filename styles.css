@@ -1,18 +1,41 @@
-html {
+body {
+	width: 60%;
+	margin: 8px;
+	display: block;
+	text-align: justify;
+	background-color: honeydew;
 	font-family: "News Cycle", sans-serif;
 	font-weight: 600;
 	font-size: 1rem;
-	background-color: honeydew;
 	color: rgb(50, 50, 50);
 }
 
-#art-h2 {
-	color: #e4aa1e;
-	background-color: crimson;
+#glial-cells, img {
+	padding: 0;
+	width: 100%;
+	margin: 0 0 0 0;
 }
+
+#retina, img {
+	display: inline-block;
+	width: 50%;
+	padding: 5%;
+	position: relative;
+	top: -4.7%;
+}
+
+#retina-cite {
+	width: 50%;
+}
+aside {
+	margin: auto ;
+	padding: 5%;
+}
+
 a {
 	color: #0c8696;
 	text-decoration: none;
+	margin: 0px;;
 }
 
 a:hover {
@@ -20,54 +43,78 @@ a:hover {
 	text-decoration: none;
 }
 
-#body-div, div {
-	display: grid;
-	width: 60%;
-	/* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
-  /* grid-template-rows: 2fr 1fr 3fr 1fr; */
-	/* grid-template-areas: "header  header  header"
-                       "nav     nav     nav"
-                       "content content ."
-                       "footer   footer  footer"; */
+#h2-overview {
+	color: honeydew;
+	background-color: crimson;
 }
 
-#glial-cells {
-	height: 80%;
+#h2-topics {
+	color: #e4a91e;
+	background-color: #0b90a1;
+
 }
 
-#cite-img-1673 {
-	font-size: .75rem;
+#h2-learning-techniques {
+	color: #0b7381;
+	background-color: #e4a91e;
+}
+
+#h2-art {
+	color: #e4a91e;
+	background-color: crimson;
+	margin-top: 0;
+}
+
+.cite {
+	margin: 0px;
+	font-size: 0.7rem;
 }
 
 #header-div {
+	outline: #0b90a1 5px solid;
+
+	margin-top: 8px;
+	margin-bottom: 5px;;
 	text-align: center;
 	background-color: #0b90a1;
 	color: honeydew;
+	padding: 1% 0 1% 0;
 }
 
 #nav-div {
+	padding: 1% 0 1% 0;
 	text-align: center;
 	background-color: #e4aa1e;
+	outline: #e4aa1e 5px solid;
+
 }
 
+#main-container {
+
+	display: grid;
+}
+
+
 #overview-div {
-	border: crimson 5px solid;
+	outline: crimson 5px solid;
 }
 
 #topics-div {
-	margin: 5px;
-	border: #0b90a1 5px solid;
+	outline: #0b90a1 5px solid;
 }
 
 #learning-techniques-div {
-	border: #e4aa1e 5px solid;
+	outline: #e4aa1e 5px solid;
 }
 
 #art-aside {
-	background-color: #e4aa1e;
-	border: crimson 5px solid;
+	/* background-color: #e4aa1e; */
+	outline: crimson 5px solid;
+	display: inline-block;
+	width: 30%;
+	position: relative;
+	bottom: 18%;
 }
-
 
 .funParagraph {
 	color: green;
